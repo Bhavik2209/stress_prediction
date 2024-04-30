@@ -3,10 +3,10 @@ import pandas as pd
 import pickle
 
 # Load scaler and model using pickle
-with open(r'C:\Users\SVI\Desktop\ML_projects\stress_project-kaggle\scaler.pkl', 'rb') as f:
+with open('scaler.pkl', 'rb') as f:
     scaler = pickle.load(f)
 
-with open(r'C:\Users\SVI\Desktop\ML_projects\stress_project-kaggle\model.pkl', 'rb') as f:
+with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # Streamlit app
