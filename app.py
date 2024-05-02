@@ -26,7 +26,7 @@ sleep_duration = st.sidebar.number_input('Sleep Duration', min_value=0, max_valu
 quality_of_sleep = st.sidebar.slider('Quality of Sleep', min_value=1, max_value=10, value=5)
 physical_activity_level = st.sidebar.slider('Physical Activity Level', min_value=1, max_value=10, value=5)
 bmi_category = st.sidebar.selectbox('BMI Category', ['Normal Weight','Under Weight', 'Overweight', 'Obese'])
-blood_pressure = st.sidebar.text_input('Blood Pressure (sbp/dbp)',value=120/80)
+blood_pressure = st.sidebar.text_input('Blood Pressure (sbp/dbp)',value="120/80")
 heart_rate = st.sidebar.number_input('Heart Rate', min_value=0, max_value=300, value=70)
 daily_steps = st.sidebar.number_input('Daily Steps', min_value=0, value=5000)
 sleep_disorder = st.sidebar.selectbox('sleep disorder', ['NaN', 'Sleep Apnea', 'Insomnia'])
